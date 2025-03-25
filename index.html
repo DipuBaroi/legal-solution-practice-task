@@ -8,14 +8,173 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header>
-
+    <header class="mb-12">
+        
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Cases</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl flex">
+                <img src="images/logo2.png" alt="">
+              </a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>Services ❯</a></li>
+                <li><a>Cases ❯</a></li>
+                <li><a>Blog ❯</a></li>
+                <li><a>Contact Us ❯</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn">Free Consultation</a>
+            </div>
+          </div>
     </header>
-    <main>
-
+    <main class="w-10/12 mx-auto">
+        <!-- banner section -->
+         <section class="mb-20">
+            <div
+                class="hero min-h-screen"
+                style="background-image: url(images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                 <div class="hero-content text-neutral-content text-center">
+                <div class="max-w-lg">
+                <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
+                <p class="mb-5">
+                    A modern legal solution web page offering case management, legal advice, and document automation for clients and lawyers efficiently.
+                </p>
+                <div class="">
+                    <input class="px-6 py-2 rounded-lg" type="text" name="" placeholder="Search Your Services" id="">
+                    <button class="btn btn-primary px-6 ">Search</button>
+                </div>
+                 </div>
+                </div>
+                </div>
+         </section>
+         <!-- Card section -->
+          <section class="mb-20">
+                <div class="w-6/12 mx-auto text-center space-y-5 mb-10">
+                    <h1 class="font-bold text-4xl">The Legal Practice Area</h1>
+                    <p>Providing specialized legal services in Business, Criminal, Tax, Divorce, Education, and Child Support Law to protect your rights and interests.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3">
+                    <div class="card bg-base-100 p-8 w-96 rounded-none shadow-lg border-b-2 border-gray-300 ">
+                        <figure class="px-10 pt-10">
+                          <img
+                            src="images/business.png"
+                            alt="business"
+                           />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Business Law</h2>
+                          <p class="text-gray-600">Providing expert business law services, including contract drafting, compliance guidance, dispute resolution, and legal consulting to protect your business interests.</p>
+                          <div class="card-actions">
+                            <button><img src="images/Frame.png" alt=""></button>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="card bg-base-100 w-96 shadow-lg border-x-2 border-b-2 border-gray-300 p-8 rounded-none ">
+                        <figure class="px-10 pt-10">
+                          <img
+                            src="images/criminal.png"
+                            alt="business"/>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Criminal Law</h2>
+                          <p class="text-gray-600">Offering expert criminal law services, including legal defense, case analysis, rights protection, and representation to ensure fair justice for clients.</p>
+                          <div class="card-actions">
+                            <button><img src="images/Frame.png" alt=""></button>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="card bg-base-100 w-96 shadow-lg border-l-2 border-b-2 border-gray-300 p-8 rounded-none">
+                        <figure class="px-10 pt-10">
+                          <img
+                            src="images/child.png"
+                            alt="Child"/>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Child Support</h2>
+                          <p class="text-gray-600">Providing legal assistance in child support cases, including agreements, modifications, enforcement, and advocacy to ensure children's financial well-being.</p>
+                          <div class="card-actions">
+                            <button><img src="images/Frame.png" alt=""></button>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="card bg-base-100 w-96 shadow-lg p-8 rounded-none ">
+                        <figure class="px-10 pt-10">
+                          <img
+                            src="images/education.png"
+                            alt="business"/>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Education Law</h2>
+                          <p class="text-gray-600">Offering expert education law services, including policy compliance, student rights, institutional regulations, and legal support for schools and individuals.</p>
+                          <div class="card-actions">
+                            <button><img src="images/Frame.png" alt=""></button>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="card bg-base-100 w-96 shadow-lg border-l-2 border-gray-300 p-8 rounded-none ">
+                        <figure class="px-10 pt-10">
+                          <img
+                            src="images/divorce.png"
+                            alt="Divorce Law"/>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Divorce Law</h2>
+                          <p class="text-gray-600">Providing expert divorce law services, including legal consultation, settlements, child custody, and representation to ensure a smooth separation process.</p>
+                          <div class="card-actions">
+                            <button><img src="images/Frame.png" alt=""></button>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="card bg-base-100 w-96 shadow-lg border-l-2 border-gray-300 p-8 rounded-none ">
+                        <figure class="px-10 pt-10">
+                          <img
+                            src="images/tax.png"
+                            alt="Tax Law"/>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Tax Law</h2>
+                          <p class="text-gray-600">Providing professional tax law services, including tax planning, compliance, dispute resolution, and legal advice to optimize and protect your finances.</p>
+                          <div class="card-actions">
+                            <button><img src="images/Frame.png" alt=""></button>
+                          </div>
+                        </div>
+                        </div>
+                </div>
+          </section>
+         
+         
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
