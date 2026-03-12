@@ -1,260 +1,375 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legal Solution</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legal Solution</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-    <header class="mb-12">
-        
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li><a>Home</a></li>
-                  <li><a>Services</a></li>
-                  <li><a>Cases</a></li>
-                  <li><a>Blog</a></li>
-                  <li><a>Contact Us</a></li>
-                </ul>
-              </div>
-              <a class="btn btn-ghost text-xl flex">
-                <img src="images/logo2.png" alt="">
-              </a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a>Home</a></li>
-                <li><a>Services ❯</a></li>
-                <li><a>Cases ❯</a></li>
-                <li><a>Blog ❯</a></li>
-                <li><a>Contact Us ❯</a></li>
-              </ul>
-            </div>
-            <div class="navbar-end">
-              <a class="btn">Free Consultation</a>
+  <header class="mb-12">
+
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Cases</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-xl flex">
+          <img src="images/logo2.png" alt="">
+        </a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Home</a></li>
+          <li><a>Services ❯</a></li>
+          <li><a>Cases ❯</a></li>
+          <li><a>Blog ❯</a></li>
+          <li><a>Contact Us ❯</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a class="btn bg-[#B68C5A] text-white">Free Consultation</a>
+      </div>
+    </div>
+  </header>
+  <main class="w-10/12 mx-auto">
+    <!-- banner section -->
+    <section class="mb-20">
+      <div class="hero min-h-[450px]" style="background-image: url(images/banner.png);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-neutral-content text-center">
+          <div class="max-w-lg">
+            <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
+            <p class="mb-5">
+              A modern legal solution web page offering case management, legal advice, and document automation for
+              clients and lawyers efficiently.
+            </p>
+            <div class="">
+              <input class="px-6 py-3 rounded-lg" type="text" name="" placeholder="Search Your Services" id="">
+              <button class="btn bg-[#B68C5A] px-6 py-3 text-white ">Search</button>
             </div>
           </div>
-    </header>
-    <main class="w-10/12 mx-auto">
-        <!-- banner section -->
-         <section class="mb-20">
-            <div
-                class="hero min-h-screen"
-                style="background-image: url(images/banner.png);">
-                <div class="hero-overlay bg-opacity-60"></div>
-                 <div class="hero-content text-neutral-content text-center">
-                <div class="max-w-lg">
-                <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
-                <p class="mb-5">
-                    A modern legal solution web page offering case management, legal advice, and document automation for clients and lawyers efficiently.
-                </p>
-                <div class="">
-                    <input class="px-6 py-2 rounded-lg" type="text" name="" placeholder="Search Your Services" id="">
-                    <button class="btn btn-primary px-6 ">Search</button>
-                </div>
-                 </div>
-                </div>
-                </div>
-         </section>
-         <!-- Card section -->
-          <section class="mb-20">
-                <div class=" text-center space-y-5 mb-10">
-                    <h1 class="font-bold text-4xl">The Legal Practice Area</h1>
-                    <p class="w-8/12 mx-auto">Providing specialized legal services in Business, Criminal, Tax, Divorce, Education, and Child Support Law to protect your rights and interests.</p>
-                </div>
-                <div class="grid md:grid-cols-2 lg:grid-cols-3">
-                    <div class="card bg-base-100 p-8 w-96 rounded-none shadow-lg border-b-2 border-gray-300 ">
-                        <figure class="px-10 pt-10">
-                          <img
-                            src="images/business.png"
-                            alt="business"
-                           />
-                        </figure>
-                        <div class="card-body items-center text-center">
-                          <h2 class="card-title">Business Law</h2>
-                          <p class="text-gray-600">Providing expert business law services, including contract drafting, compliance guidance, dispute resolution, and legal consulting to protect your business interests.</p>
-                          <div class="card-actions">
-                            <button><img src="images/Frame.png" alt=""></button>
-                          </div>
-                        </div>
-                        </div>
-                        <div class="card bg-base-100 w-96 shadow-lg border-x-2 border-b-2 border-gray-300 p-8 rounded-none ">
-                        <figure class="px-10 pt-10">
-                          <img
-                            src="images/criminal.png"
-                            alt="business"/>
-                        </figure>
-                        <div class="card-body items-center text-center">
-                          <h2 class="card-title">Criminal Law</h2>
-                          <p class="text-gray-600">Offering expert criminal law services, including legal defense, case analysis, rights protection, and representation to ensure fair justice for clients.</p>
-                          <div class="card-actions">
-                            <button><img src="images/Frame.png" alt=""></button>
-                          </div>
-                        </div>
-                        </div>
-                        <div class="card bg-base-100 w-96 shadow-lg border-l-2 border-b-2 border-gray-300 p-8 rounded-none">
-                        <figure class="px-10 pt-10">
-                          <img
-                            src="images/child.png"
-                            alt="Child"/>
-                        </figure>
-                        <div class="card-body items-center text-center">
-                          <h2 class="card-title">Child Support</h2>
-                          <p class="text-gray-600">Providing legal assistance in child support cases, including agreements, modifications, enforcement, and advocacy to ensure children's financial well-being.</p>
-                          <div class="card-actions">
-                            <button><img src="images/Frame.png" alt=""></button>
-                          </div>
-                        </div>
-                        </div>
-                        <div class="card bg-base-100 w-96 shadow-lg p-8 rounded-none ">
-                        <figure class="px-10 pt-10">
-                          <img
-                            src="images/education.png"
-                            alt="business"/>
-                        </figure>
-                        <div class="card-body items-center text-center">
-                          <h2 class="card-title">Education Law</h2>
-                          <p class="text-gray-600">Offering expert education law services, including policy compliance, student rights, institutional regulations, and legal support for schools and individuals.</p>
-                          <div class="card-actions">
-                            <button><img src="images/Frame.png" alt=""></button>
-                          </div>
-                        </div>
-                        </div>
-                        <div class="card bg-base-100 w-96 shadow-lg border-l-2 border-gray-300 p-8 rounded-none ">
-                        <figure class="px-10 pt-10">
-                          <img
-                            src="images/divorce.png"
-                            alt="Divorce Law"/>
-                        </figure>
-                        <div class="card-body items-center text-center">
-                          <h2 class="card-title">Divorce Law</h2>
-                          <p class="text-gray-600">Providing expert divorce law services, including legal consultation, settlements, child custody, and representation to ensure a smooth separation process.</p>
-                          <div class="card-actions">
-                            <button><img src="images/Frame.png" alt=""></button>
-                          </div>
-                        </div>
-                        </div>
-                        <div class="card bg-base-100 w-96 shadow-lg border-l-2 border-gray-300 p-8 rounded-none ">
-                        <figure class="px-10 pt-10">
-                          <img
-                            src="images/tax.png"
-                            alt="Tax Law"/>
-                        </figure>
-                        <div class="card-body items-center text-center">
-                          <h2 class="card-title">Tax Law</h2>
-                          <p class="text-gray-600">Providing professional tax law services, including tax planning, compliance, dispute resolution, and legal advice to optimize and protect your finances.</p>
-                          <div class="card-actions">
-                            <button><img src="images/Frame.png" alt=""></button>
-                          </div>
-                        </div>
-                        </div>
-                </div>
-          </section>
-          <!-- slider section -->
-         <section>
-            <section class="mb-20">
-                <div class=" text-center space-y-5 mb-10">
-                    <h1 class="font-bold text-4xl">What Our Client Say</h1>
-                    <p class="w-8/12 mx-auto">Discover client testimonials highlighting our expert legal services, professionalism, and commitment to achieving the best outcomes for their cases.</p>
-                </div>
-                <div>
-                    <div class="carousel w-full">
-                        <div id="slide1" class="carousel-item relative w-full">
-                            <div class="absolute inset-0 flex justify-center items-center">
-                            <div class=" text-white w-7/12  text-center space-y-4">
+        </div>
+      </div>
+    </section>
+    <!-- Card section -->
+    <section class="mb-20">
+      <div class=" text-center space-y-5 mb-10">
+        <h1 class="font-bold text-4xl">The Legal Practice Area</h1>
+        <p class="w-8/12 mx-auto">Providing specialized legal services in Business, Criminal, Tax, Divorce, Education,
+          and Child Support Law to protect your rights and interests.</p>
+      </div>
+      <div class="grid gap-2 md:gap-0 md:grid-cols-2 lg:grid-cols-3">
+        <div class="card bg-base-100 p-8 w-96 rounded-none shadow-lg border-b-2 border-gray-300 ">
+          <figure class="px-10 pt-10">
+            <img src="images/business.png" alt="business" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Business Law</h2>
+            <p class="text-gray-600">Providing expert business law services, including contract drafting, compliance
+              guidance, dispute resolution, and legal consulting to protect your business interests.</p>
+            <div class="card-actions">
+              <button><img src="images/Frame.png" alt=""></button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-lg border-x-2 border-b-2 border-gray-300 p-8 rounded-none ">
+          <figure class="px-10 pt-10">
+            <img src="images/criminal.png" alt="business" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Criminal Law</h2>
+            <p class="text-gray-600">Offering expert criminal law services, including legal defense, case analysis,
+              rights protection, and representation to ensure fair justice for clients.</p>
+            <div class="card-actions">
+              <button><img src="images/Frame.png" alt=""></button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-lg border-l-2 border-b-2 border-gray-300 p-8 rounded-none">
+          <figure class="px-10 pt-10">
+            <img src="images/child.png" alt="Child" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Child Support</h2>
+            <p class="text-gray-600">Providing legal assistance in child support cases, including agreements,
+              modifications, enforcement, and advocacy to ensure children's financial well-being.</p>
+            <div class="card-actions">
+              <button><img src="images/Frame.png" alt=""></button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-lg p-8 rounded-none ">
+          <figure class="px-10 pt-10">
+            <img src="images/education.png" alt="business" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Education Law</h2>
+            <p class="text-gray-600">Offering expert education law services, including policy compliance, student
+              rights, institutional regulations, and legal support for schools and individuals.</p>
+            <div class="card-actions">
+              <button><img src="images/Frame.png" alt=""></button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-lg border-l-2 border-gray-300 p-8 rounded-none ">
+          <figure class="px-10 pt-10">
+            <img src="images/divorce.png" alt="Divorce Law" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Divorce Law</h2>
+            <p class="text-gray-600">Providing expert divorce law services, including legal consultation, settlements,
+              child custody, and representation to ensure a smooth separation process.</p>
+            <div class="card-actions">
+              <button><img src="images/Frame.png" alt=""></button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-lg border-l-2 border-gray-300 p-8 rounded-none ">
+          <figure class="px-10 pt-10">
+            <img src="images/tax.png" alt="Tax Law" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Tax Law</h2>
+            <p class="text-gray-600">Providing professional tax law services, including tax planning, compliance,
+              dispute resolution, and legal advice to optimize and protect your finances.</p>
+            <div class="card-actions">
+              <button><img src="images/Frame.png" alt=""></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- slider section -->
 
-                                      <div class="avatar">
-                                        <div class="w-24 rounded-full">
-                                          <img src="images/myphoto.jpg" />
-                                        </div>
-                                      </div>
-                                <h2 class="font-bold text-2xl">Dipu Chandra Baroi</h2>
-                                <h3 class="text-xl">Jr. Developer</h3>
-                                <p>A Junior Developer is an entry-level professional who assists in coding, debugging, and developing software applications. They learn from senior developers and improve their technical skills while contributing to projects.</p>
-                                </div>
-                            </div>
-                          <img
-                            src="images/slider-1.jpg"
-                            class="w-full" />
-                          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide3" class="btn btn-circle">❮</a>
-                            <a href="#slide2" class="btn btn-circle">❯</a>
-                          </div>
-                        </div>
-                        <div id="slide2" class="carousel-item relative w-full">
-                            <div class="absolute inset-0 flex justify-center items-center">
-                            <div class=" text-white w-7/12  text-center space-y-4">
+    <section class="mb-20">
+      <div class=" text-center space-y-5 mb-10">
+        <h1 class="font-bold text-4xl">What Our Client Say</h1>
+        <p class="w-8/12 mx-auto">Discover client testimonials highlighting our expert legal services,
+          professionalism, and commitment to achieving the best outcomes for their cases.</p>
+      </div>
+      <div>
+        <div class="carousel w-full border-2 border-red-500 h-[450px]">
+          <div id="slide1" class="carousel-item relative w-full">
+            <div class="absolute inset-0 flex justify-center items-center">
+              <div class=" text-white w-7/12  text-center space-y-4">
 
-                                      <div class="avatar">
-                                        <div class="w-24 rounded-full">
-                                          <img src="images/bijoy.png" />
-                                        </div>
-                                      </div>
-                                <h2 class="font-bold text-2xl">Md. Morsalin Mridha Bojoy</h2>
-                                <h3 class="text-xl">Jr. Lawyer</h3>
-                                <p>A lawyer is a legal expert who advises clients, represents them in court, drafts legal documents, and helps solve legal issues while ensuring justice, protecting rights, and interpreting laws effectively.</p>
-                                </div>
-                            </div>
-                          <img
-                            src="images/slider-2.jpg"
-                            class="w-full" />
-                          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide1" class="btn btn-circle">❮</a>
-                            <a href="#slide3" class="btn btn-circle">❯</a>
-                          </div>
-                        </div>
-                        <div id="slide3" class="carousel-item relative w-full">
-                            <div class="absolute inset-0 flex justify-center items-center">
-                            <div class=" text-white w-7/12  text-center space-y-4">
-
-                                      <div class="avatar">
-                                        <div class="w-24 rounded-full">
-                                          <img src="images/niloy.png" />
-                                        </div>
-                                      </div>
-                                <h2 class="font-bold text-2xl">Niloy Ahmed</h2>
-                                <h3 class="text-xl">EEE Eng.</h3>
-                                <p>Electrical and Electronic Engineering (EEE) focuses on designing, developing, and maintaining electrical systems, circuits, and devices. It covers power generation, electronics, communication, and automation to improve technology and infrastructure.</p>
-                                </div>
-                            </div>
-                          <img
-                            src="images/slider-3.jpg"
-                            class="w-full" />
-                          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide2" class="btn btn-circle">❮</a>
-                            <a href="#slide1" class="btn btn-circle">❯</a>
-                          </div>
-                        </div>
-                        
-                      </div>
+                <div class="avatar">
+                  <div class="w-24 rounded-full">
+                    <img src="images/myphoto.jpg" />
+                  </div>
                 </div>
-         </section>
-         <section class="my-20">
-            
-         </section>
-    </main>
-    <footer>
+                <h2 class="font-bold text-2xl">Dipu Chandra Baroi</h2>
+                <h3 class="text-xl">Jr. Developer</h3>
+                <p>A Junior Developer is an entry-level professional who assists in coding, debugging, and developing
+                  software applications. They learn from senior developers and improve their technical skills while
+                  contributing to projects.</p>
+              </div>
+            </div>
+            <img src="images/slider-1.jpg" class="w-full" />
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <div class="absolute inset-0 flex justify-center items-center">
+              <div class=" text-white w-7/12  text-center space-y-4">
 
-    </footer>
+                <div class="avatar">
+                  <div class="w-24 rounded-full">
+                    <img src="images/bijoy.png" />
+                  </div>
+                </div>
+                <h2 class="font-bold text-2xl">Md. Morsalin Mridha Bojoy</h2>
+                <h3 class="text-xl">Jr. Lawyer</h3>
+                <p>A lawyer is a legal expert who advises clients, represents them in court, drafts legal documents,
+                  and helps solve legal issues while ensuring justice, protecting rights, and interpreting laws
+                  effectively.</p>
+              </div>
+            </div>
+            <img src="images/slider-2.jpg" class="w-full" />
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <div class="absolute inset-0 flex justify-center items-center">
+              <div class=" text-white w-7/12  text-center space-y-4">
+
+                <div class="avatar">
+                  <div class="w-24 rounded-full">
+                    <img src="images/niloy.png" />
+                  </div>
+                </div>
+                <h2 class="font-bold text-2xl">Niloy Ahmed</h2>
+                <h3 class="text-xl">EEE Eng.</h3>
+                <p>Electrical and Electronic Engineering (EEE) focuses on designing, developing, and maintaining
+                  electrical systems, circuits, and devices. It covers power generation, electronics, communication,
+                  and automation to improve technology and infrastructure.</p>
+              </div>
+            </div>
+            <img src="images/slider-3.jpg" class="w-full" />
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- contact with us  -->
+    <section class="my-20">
+      <div class=" text-center space-y-5 mb-10">
+        <h1 class="font-bold text-4xl">Contact With Us</h1>
+        <p class="w-8/12 mx-auto">If you want to talk to us, use the details below. You can ask questions, give ideas,
+          or get help. Don’t worry—we’ll try to reply as soon as possible.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+        <div class="grid grid-cols-2 gap-2 ">
+          <div class="border-2 border-slate-600 p-5">
+            <img src="images/location.png" alt="">
+            <h3>Address</h3>
+            <p>A108 Adam Street, <br>
+              New York, NY 535022</p>
+          </div>
+          <div class="border-2 border-slate-600 p-5">
+            <img src="images/call.png" alt="">
+            <h3>Call Us</h3>
+            <p> +88 01750 00 00 00 <br>
+              +88 01750 00 00 00</p>
+          </div>
+          <div class="border-2 border-slate-600 p-5">
+            <img src="images/email.png" alt="">
+            <h3>Email Us</h3>
+            <p> info@gmail.com <br>
+              info@gmail.com</p>
+          </div>
+          <div class="border-2 border-slate-600 p-5">
+            <img src="images/time.png" alt="">
+            <h3>Working Hours</h3>
+            <p>Mon-Fri: 9AM to 5PM <br>
+              Sunday: 9AM to 1 PM</p>
+          </div>
+
+        </div>
+        <div class=" flex-1" >
+          <form action="" class="flex flex-col gap-5">
+            <input class="px-5 py-3 border border-gray-400" type="text" placeholder="Your Name">
+            <input class="px-5 py-3 border border-gray-400" type="text" placeholder="Your Email">
+            <input class="px-5 py-3 border border-gray-400" type="text" placeholder="Subject">
+            <input class="px-5 py-3 border border-gray-400" type="text-area" placeholder="Your Message">
+            <Button class="btn">Send Message</Button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ section -->
+    <section>
+      <div class=" text-center space-y-5 mb-10">
+        <h1 class="font-bold text-4xl">Frequently Asked Any Questions</h1>
+        <p class="w-8/12 mx-auto"> There are many variations of passages of Lorem Ipsum available, but the majority
+          have
+          suffered alteration in some form, by injected humour.</p>
+      </div>
+      <div class="flex flex-col-reverse lg:flex-row gap-5 justify-between items-center mt-5">
+        <div class="space-y-5">
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="images/faq.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-black mt-20 text-white p-10">
+    <div class="grid grid-cols-4 gap-5">
+      <div>
+        <a class="btn btn-ghost text-xl flex mb-10">
+          <img src="images/logo2.png" alt="">
+        </a>
+        <p class="text-[#CFCFCF]"> There are many variations of
+          passages of Lorem Ipsum
+          available, but the majority have
+          suffered alteration in some
+          form, by injected humour.</p>
+      </div>
+      <div>
+        <h3 class="mb-10 text-2xl font-bold">Usefull Links</h3>
+        <ul class="text-[#CFCFCF]">
+          <li><a>Home</a></li>
+          <li><a>Services</a></li>
+          <li><a>Cases</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="space-y-4">
+        <h1 class="mb-10 text-2xl font-bold">Contact Now</h1>
+        <p class="text-[#CFCFCF]">555 4th 5t NW, Washington <br>
+          DC 20530, United States</p>
+        <p class="text-[#CFCFCF]">+88 01750 000 000 <br>
+          +88 01750 000 000</p>
+        <p class="text-[#CFCFCF]"> info@gmail.com <br>
+          info@gmail.com</p>
+      </div>
+      <div>
+        <h3 class="mb-10 text-2xl font-bold"> Subscribe</h3>
+        <p class="text-[#CFCFCF] mb-5"> Subscribe for our latest &
+          Articles. We Won’t Give You
+          Spam Mails</p>
+        <div>
+          <input class="px-5 py-3" type="text" placeholder="Your Email">
+
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
